@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
+
 print("Welcome to the Lucky Number!")
 
 lucky_number = raw_input("Pick a number between 0 and 100,000: ")
 
 while lucky_number == "18765":
-    print("Congratulations! You won an unlimited supply of cocoa!")
+    print("Congratulations! You have won an unlimited supply of cocoa!")
     break
 
 else:
@@ -11,7 +13,7 @@ else:
     lucky_number = raw_input("Pick a number between 0 and 100,000: ")
 
     while lucky_number == "18765":
-        print("Congratulations! You won an unlimited supply of cocoa!")
+        print("Congratulations! You have won an unlimited supply of cocoa!")
         break
 
     else:
